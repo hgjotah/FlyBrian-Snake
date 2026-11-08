@@ -1,0 +1,11 @@
+{
+  "stage": 4,
+  "practice": "routes",
+  "max_steps": 40,
+  "save_every": 12,
+  "eval_every": 0,
+  "synaptic_signal": "contact_probabilities",
+  "learning": {
+    "post_required": false
+  }
+}

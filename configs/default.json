@@ -1,0 +1,17 @@
+{
+  "seed": 1,
+  "size": 7,
+  "stage": 4,
+  "max_steps": 100,
+  "decision_ms": 60,
+  "outcome_ms": 30,
+  "sensory_hz": 90,
+  "reinforcement_hz": 120,
+  "plasticity": true,
+  "dopamine": true,
+  "save_every": 10,
+  "eval_every": 0,
+  "rewards": {"apple": 30, "collision": -60, "distance": 0.25, "wall": 12, "idle": 0, "profile": "edge_target", "route": 2, "completion": 150},
+  "lif": {"dt": 0.1, "rest": -52, "reset": -52, "threshold": -45, "membrane_tau": 20, "synapse_tau": 5, "refractory": 2.2, "delay": 1.8, "unit_weight": 0.275, "stimulus_jump": 68.75},
+  "learning": {"tau_ms": 350, "post_tau_ms": 100, "learning_rate": 0.075, "min_scale": 0.2, "post_required": true}
+}

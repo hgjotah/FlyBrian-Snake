@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flybrain-snake"
+version = "0.2.0"
+description = "Laboratorio de dinámica neuronal y plasticidad sináptica para Brian"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.2.6", "numba==0.61.2", "pyarrow==20.0.0", "psutil==7.0.0"]
+
+[project.optional-dependencies]
+desktop = ["PySide6-Essentials==6.9.3"]
+test = ["pytest==8.4.2", "brian2==2.9.0"]
+
+[project.scripts]
+flybrain = "flybrain_snake.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+markers = ["flywire: integración con el conectoma oficial v783", "desktop: prueba Qt"]
+testpaths = ["tests"]

@@ -1,0 +1,10 @@
+{
+  "stage": 4,
+  "practice": "edge_reset",
+  "max_steps": 0,
+  "synaptic_signal": "contact_probabilities",
+  "wall_preview_cells": 1,
+  "learning": {
+    "post_required": false
+  }
+}

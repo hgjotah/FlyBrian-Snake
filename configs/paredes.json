@@ -1,0 +1,14 @@
+{
+  "stage": 4,
+  "practice": "walls",
+  "size": 10,
+  "max_steps": 20,
+  "save_every": 12,
+  "eval_every": 0,
+  "wall_memory_hz": 0,
+  "wall_preview_cells": 1,
+  "synaptic_signal": "contact_probabilities",
+  "learning": {
+    "post_required": false
+  }
+}

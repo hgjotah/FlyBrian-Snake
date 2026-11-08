@@ -1,0 +1,15 @@
+{
+  "seed": 1,
+  "max_steps": 12,
+  "save_every": 10,
+  "rewards": {
+    "apple": 10,
+    "collision": -20,
+    "distance": 0.1,
+    "wall": 0.05,
+    "idle": 0,
+    "route": 0,
+    "completion": 0,
+    "profile": "legacy"
+  }
+}

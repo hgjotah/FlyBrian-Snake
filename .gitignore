@@ -1,0 +1,15 @@
+.runtime/
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+*.part
+data/raw/
+data/processed/
+data/sessions/
+data/runs/
+
+data/anatomy/
+data/.anatomy-*/
+/*_783.feather
+/proofread_root_ids_783.npy
